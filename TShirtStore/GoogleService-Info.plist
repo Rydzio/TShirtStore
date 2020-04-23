@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>193848084615-bbhbf7f8l1v90118suh8caf62uep29k1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.193848084615-bbhbf7f8l1v90118suh8caf62uep29k1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD0BXjQb1aIWV0CGR7qZQW86IcjDGkVJPA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>193848084615</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.akshit.TShirtStore</string>
+	<key>PROJECT_ID</key>
+	<string>tshirtstore-40236</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tshirtstore-40236.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:193848084615:ios:bc933c50f6cc432c5d5022</string>
+	<key>DATABASE_URL</key>
+	<string>https://tshirtstore-40236.firebaseio.com</string>
+</dict>
+</plist>
