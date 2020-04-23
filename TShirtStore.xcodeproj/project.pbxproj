@@ -19,6 +19,7 @@
 		1532E2F52451894A00299136 /* FirebaseConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532E2F42451894A00299136 /* FirebaseConvertable.swift */; };
 		1532E2F72451895900299136 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532E2F62451895900299136 /* Product.swift */; };
 		1532E2F924518B2300299136 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532E2F824518B2300299136 /* ViewModel.swift */; };
+		1578B6DA2451D386002BC1F5 /* XCTestCase+Firestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1578B6D92451D386002BC1F5 /* XCTestCase+Firestore.swift */; };
 		877788F8E49AD7A4A246FCBB /* Pods_TShirtStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E107732E0374E3DA7761A6E /* Pods_TShirtStoreTests.framework */; };
 		89966D14A9746FFF88195FFD /* Pods_TShirtStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F389C29F509977E820CB7984 /* Pods_TShirtStore.framework */; };
 		90015C771B74666BDE01A3F3 /* Pods_TShirtStore_TShirtStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDF9B4995C4FD595C574AB1 /* Pods_TShirtStore_TShirtStoreUITests.framework */; };
@@ -61,6 +62,7 @@
 		1532E2F42451894A00299136 /* FirebaseConvertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConvertable.swift; sourceTree = "<group>"; };
 		1532E2F62451895900299136 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		1532E2F824518B2300299136 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1578B6D92451D386002BC1F5 /* XCTestCase+Firestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Firestore.swift"; sourceTree = "<group>"; };
 		2AD8D1B90BC603F4FB164346 /* Pods-TShirtStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TShirtStore.debug.xcconfig"; path = "Target Support Files/Pods-TShirtStore/Pods-TShirtStore.debug.xcconfig"; sourceTree = "<group>"; };
 		6E107732E0374E3DA7761A6E /* Pods_TShirtStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TShirtStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7047C5F6D451C032B9DB67C2 /* Pods-TShirtStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TShirtStoreTests.release.xcconfig"; path = "Target Support Files/Pods-TShirtStoreTests/Pods-TShirtStoreTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			children = (
 				15F053462451914400428901 /* ViewModels */,
 				1532E2DB245178E100299136 /* Info.plist */,
+				1578B6D92451D386002BC1F5 /* XCTestCase+Firestore.swift */,
 			);
 			path = TShirtStoreTests;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1578B6DA2451D386002BC1F5 /* XCTestCase+Firestore.swift in Sources */,
 				1532E2DA245178E100299136 /* ViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

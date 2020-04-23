@@ -16,6 +16,7 @@ final class ViewModel {
   var product: Product?
 
   typealias AddToCartCompletionHandler = (Result<Bool, ProductError>) -> Void
+  typealias GetProductsCompletionHandler = ([Product]) -> Void
 
   func addToCart(_ completion: @escaping AddToCartCompletionHandler) {
 
@@ -34,6 +35,21 @@ final class ViewModel {
 
       // Adding the document was successful
       completion(.success(true))
+    }
+  }
+
+  func getProductsFromCart(_ completion: @escaping GetProductsCompletionHandler) {
+    self.db.collection("cart").getDocuments { (snapshot, error) in
+
+      // Handle error
+      if error != nil {
+        completion([])
+        return
+      }
+
+      // Convert firebase dictionary data to Product object
+      let products: [Product] = snapshot?.documents.compactMap({ Product(from: $0.data()) }) ?? []
+      completion(products)
     }
   }
 }

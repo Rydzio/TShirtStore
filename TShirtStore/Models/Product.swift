@@ -15,6 +15,16 @@ struct Product {
 }
 
 extension Product: FirebaseConvertable {
+  init?(from document: [String: Any]) {
+    guard let idString = document["id"] as? String,
+      let id = Int(idString),
+      let name = document["name"] as? String,
+      let priceString = document["pricePerUnit"] as? String,
+      let price = Double(priceString) else { return nil }
+
+    self.init(id: id, name: name, pricePerUnit: price)
+  }
+
   func toDocument() -> [String : Any] {
     [ "id": "\(self.id)",
       "name": self.name,
